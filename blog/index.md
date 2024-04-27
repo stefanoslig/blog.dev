@@ -8,10 +8,6 @@ hero:
   image:
     src: /public/assets/my-photo.jpg
     alt: Stefanos Lignos
-  actions:
-    - theme: brand
-      text: e-mail me
-      link: mailto:stefanoslignos@gmail.com
     
 features:
   - title: Feature A

@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "About", link: "/" },
-      { text: "Posts", link: "/markdown-examples" },
+      { text: "Posts", link: "/posts/ngrx-signals-store" },
     ],
 
     // sidebar: [
