@@ -8,28 +8,33 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "About", link: "/" },
-      { text: "Posts", link: "/posts/ngrx-signals-store" },
+      { text: "Posts", link: "/articles-list" },
     ],
-
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
-
+    footer: {
+      copyright: "Copyright © 2022-present | Stefanos Lignos",
+    },
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-      { icon: "twitter", link: "https://github.com/vuejs/vitepress" },
-      { icon: "linkedin", link: "https://github.com/vuejs/vitepress" },
+      {
+        icon: "github",
+        link: "https://github.com/vuejs/vitepress",
+        ariaLabel: "github",
+      },
+      {
+        icon: "twitter",
+        link: "https://github.com/vuejs/vitepress",
+        ariaLabel: "x",
+      },
+      {
+        icon: "linkedin",
+        link: "https://github.com/vuejs/vitepress",
+        ariaLabel: "linkedin",
+      },
       {
         icon: {
           svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M180.5 74.3C80.8 74.3 0 155.6 0 256S80.8 437.7 180.5 437.7 361 356.4 361 256 280.2 74.3 180.5 74.3zm288.3 10.6c-49.8 0-90.2 76.6-90.2 171.1s40.4 171.1 90.3 171.1 90.3-76.6 90.3-171.1H559C559 161.5 518.6 84.9 468.8 84.9zm139.5 17.8c-17.5 0-31.7 68.6-31.7 153.3s14.2 153.3 31.7 153.3S640 340.6 640 256C640 171.4 625.8 102.7 608.3 102.7z"/></svg>',
         },
         link: "https://github.com/vuejs/vitepress",
+        ariaLabel: "medium",
       },
       {
         icon: {
@@ -38,7 +43,13 @@ export default defineConfig({
           </svg>`,
         },
         link: "mailto:rongchuancui@gmail.com",
+        ariaLabel: "e-mail me",
       },
     ],
+    docFooter: {
+      prev: 'Previous Article',
+      next: 'Next Article'
+    }
   },
+  lastUpdated: true,
 });

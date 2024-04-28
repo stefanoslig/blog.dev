@@ -3,11 +3,8 @@
 layout: home
 
 hero:
-  name: "Stefanos Lignos"
-  text: "Senior Front-end Engineer in Leiden"
   image:
-    src: /public/assets/my-photo.jpg
-    alt: Stefanos Lignos
+    src: /assets/my-photo.jpg
     
 features:
   - title: Feature A

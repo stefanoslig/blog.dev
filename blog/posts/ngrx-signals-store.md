@@ -1,14 +1,17 @@
 ---
-title: 'All you need to know to get started with the NgRx Signal Store'
-excerpt: 'In this article, we explore the NgRx Signal Store, a new state management solution for Angular Signals, offering simplicity, scalability, and minimal boilerplate.'
-coverImage: '/assets/blog/ngrx-signals-store/ngrx-signal-store.png'
-date: '2024-01-08T05:35:07.322Z'
-author:
-  name: Stefanos Lignos
-  picture: '/assets/my-photo-2.jpg'
-ogImage:
-  url: '/assets/blog/ngrx-signals-store/ngrx-signal-store.png'
+title: All you need to know to get started with the NgRx Signal Store
+description: In this article, we explore the NgRx Signal Store, a new state management solution for Angular Signals, offering simplicity, scalability, and minimal boilerplate.
+date: 2024-01-08T05:35:07.322Z
+lastUpdate: true
+tags:
+  - Angular
+  - NgRx
+  - NgRx Signals Store
+  - Signals
 ---
+
+![ngrx signals structure](/assets/blog/ngrx-signals-store/ngrx-signal-store.png)
+
 
 ## Introduction
 
