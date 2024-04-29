@@ -21,6 +21,6 @@ export default {
     });
   },
   enhanceApp({ app, router, siteData }) {
-    // app.component("Posts", Posts);
+    app.component("Posts", Posts);
   },
 } satisfies Theme;
